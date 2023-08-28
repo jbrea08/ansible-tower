@@ -1,0 +1,12 @@
+---
+- name: creacion de usuarios Linux
+  tasks:
+
+    - name: add user "jbrea"
+      ansible.builtin.user:
+        name: jbrea
+        comment: jbrea
+        group: sudo
+        password: 'jjj081428'
+        createhome: yes
+        home: /home/jbrea
