@@ -3,11 +3,11 @@
   hosts: all
   tasks:
 
-    - name: add user "jbrea"
+    - name: add user "pepe"
       ansible.builtin.user:
-        name: jbrea
+        name: pepe
         comment: jbrea
         group: sudo
         password: 'jjj081428'
         createhome: yes
-        home: /home/jbrea
+        home: /home/pepe
