@@ -1,0 +1,13 @@
+---
+- name: create file empity
+  hosts: all
+  tasks:
+
+    - name: create file
+      copy:
+        content: ""
+        dest: /home/
+        force: false
+        group: root
+        owner: root
+        mode: 0777
