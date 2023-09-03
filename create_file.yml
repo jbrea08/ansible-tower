@@ -1,6 +1,6 @@
 ---
 - name: create file empity
-  hosts: all
+  hosts: 192.168.50.15
   tasks:
 
     - name: create file
