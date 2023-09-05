@@ -1,7 +1,7 @@
 ---
 - name: creacion de usuarios Linux prueba
   hosts: all
-  become: yes
+  become: true
   tasks:
 
     - name: add user "pepe"
