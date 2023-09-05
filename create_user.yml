@@ -8,6 +8,5 @@
         name: pepe
         comment: jbrea
         group: sudo
-        password: 'jjj081428'
         createhome: yes
         home: /home/pepe
